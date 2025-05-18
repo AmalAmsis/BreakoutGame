@@ -1,0 +1,9 @@
+[submodule "libs/box2d"]
+	path = libs/box2d
+	url = https://github.com/erincatto/box2d.git
+[submodule "libs/SDL3"]
+	path = libs/SDL3
+	url = https://github.com/libsdl-org/SDL.git
+[submodule "libs/SDL3_image"]
+	path = libs/SDL3_image
+	url = https://github.com/libsdl-org/SDL_image.git
