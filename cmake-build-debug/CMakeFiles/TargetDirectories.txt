@@ -1,0 +1,3 @@
+C:/Users/Amal Amsis/Desktop/AmalA/Computer Science/תכנות מתקדם/BreakoutGame/cmake-build-debug/CMakeFiles/BreakoutGame.dir
+C:/Users/Amal Amsis/Desktop/AmalA/Computer Science/תכנות מתקדם/BreakoutGame/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Amal Amsis/Desktop/AmalA/Computer Science/תכנות מתקדם/BreakoutGame/cmake-build-debug/CMakeFiles/rebuild_cache.dir
