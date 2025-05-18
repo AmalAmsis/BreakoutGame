@@ -1,6 +1,6 @@
 
 #pragma once
-#include "../breackout/breakout_game.h"
+#include "../breakoutGame/breakout_game.h"
 
 
 constexpr Bagel Params{
