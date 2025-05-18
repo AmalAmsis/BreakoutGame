@@ -1,0 +1,177 @@
+[
+{
+  "directory": "C:/Users/User/Desktop/BreakoutGame/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -IC:/Users/User/Desktop/BreakoutGame/engine -IC:/Users/User/Desktop/BreakoutGame/breakoutGame -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3-3.2.14/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3_image-3.2.4/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/../include -IC:/Users/User/Desktop/BreakoutGame/cmake-build-debug/libs/box2d-3.1.0/src -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/. -g -fvisibility=hidden -fdiagnostics-color=always -ffp-contract=off -std=gnu17 -Werror -o libs\\box2d-3.1.0\\src\\CMakeFiles\\box2d.dir\\aabb.c.obj -c C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\aabb.c",
+  "file": "C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\aabb.c"
+},
+{
+  "directory": "C:/Users/User/Desktop/BreakoutGame/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -IC:/Users/User/Desktop/BreakoutGame/engine -IC:/Users/User/Desktop/BreakoutGame/breakoutGame -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3-3.2.14/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3_image-3.2.4/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/../include -IC:/Users/User/Desktop/BreakoutGame/cmake-build-debug/libs/box2d-3.1.0/src -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/. -g -fvisibility=hidden -fdiagnostics-color=always -ffp-contract=off -std=gnu17 -Werror -o libs\\box2d-3.1.0\\src\\CMakeFiles\\box2d.dir\\arena_allocator.c.obj -c C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\arena_allocator.c",
+  "file": "C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\arena_allocator.c"
+},
+{
+  "directory": "C:/Users/User/Desktop/BreakoutGame/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -IC:/Users/User/Desktop/BreakoutGame/engine -IC:/Users/User/Desktop/BreakoutGame/breakoutGame -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3-3.2.14/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3_image-3.2.4/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/../include -IC:/Users/User/Desktop/BreakoutGame/cmake-build-debug/libs/box2d-3.1.0/src -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/. -g -fvisibility=hidden -fdiagnostics-color=always -ffp-contract=off -std=gnu17 -Werror -o libs\\box2d-3.1.0\\src\\CMakeFiles\\box2d.dir\\array.c.obj -c C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\array.c",
+  "file": "C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\array.c"
+},
+{
+  "directory": "C:/Users/User/Desktop/BreakoutGame/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -IC:/Users/User/Desktop/BreakoutGame/engine -IC:/Users/User/Desktop/BreakoutGame/breakoutGame -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3-3.2.14/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3_image-3.2.4/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/../include -IC:/Users/User/Desktop/BreakoutGame/cmake-build-debug/libs/box2d-3.1.0/src -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/. -g -fvisibility=hidden -fdiagnostics-color=always -ffp-contract=off -std=gnu17 -Werror -o libs\\box2d-3.1.0\\src\\CMakeFiles\\box2d.dir\\bitset.c.obj -c C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\bitset.c",
+  "file": "C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\bitset.c"
+},
+{
+  "directory": "C:/Users/User/Desktop/BreakoutGame/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -IC:/Users/User/Desktop/BreakoutGame/engine -IC:/Users/User/Desktop/BreakoutGame/breakoutGame -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3-3.2.14/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3_image-3.2.4/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/../include -IC:/Users/User/Desktop/BreakoutGame/cmake-build-debug/libs/box2d-3.1.0/src -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/. -g -fvisibility=hidden -fdiagnostics-color=always -ffp-contract=off -std=gnu17 -Werror -o libs\\box2d-3.1.0\\src\\CMakeFiles\\box2d.dir\\body.c.obj -c C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\body.c",
+  "file": "C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\body.c"
+},
+{
+  "directory": "C:/Users/User/Desktop/BreakoutGame/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -IC:/Users/User/Desktop/BreakoutGame/engine -IC:/Users/User/Desktop/BreakoutGame/breakoutGame -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3-3.2.14/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3_image-3.2.4/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/../include -IC:/Users/User/Desktop/BreakoutGame/cmake-build-debug/libs/box2d-3.1.0/src -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/. -g -fvisibility=hidden -fdiagnostics-color=always -ffp-contract=off -std=gnu17 -Werror -o libs\\box2d-3.1.0\\src\\CMakeFiles\\box2d.dir\\broad_phase.c.obj -c C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\broad_phase.c",
+  "file": "C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\broad_phase.c"
+},
+{
+  "directory": "C:/Users/User/Desktop/BreakoutGame/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -IC:/Users/User/Desktop/BreakoutGame/engine -IC:/Users/User/Desktop/BreakoutGame/breakoutGame -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3-3.2.14/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3_image-3.2.4/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/../include -IC:/Users/User/Desktop/BreakoutGame/cmake-build-debug/libs/box2d-3.1.0/src -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/. -g -fvisibility=hidden -fdiagnostics-color=always -ffp-contract=off -std=gnu17 -Werror -o libs\\box2d-3.1.0\\src\\CMakeFiles\\box2d.dir\\constraint_graph.c.obj -c C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\constraint_graph.c",
+  "file": "C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\constraint_graph.c"
+},
+{
+  "directory": "C:/Users/User/Desktop/BreakoutGame/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -IC:/Users/User/Desktop/BreakoutGame/engine -IC:/Users/User/Desktop/BreakoutGame/breakoutGame -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3-3.2.14/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3_image-3.2.4/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/../include -IC:/Users/User/Desktop/BreakoutGame/cmake-build-debug/libs/box2d-3.1.0/src -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/. -g -fvisibility=hidden -fdiagnostics-color=always -ffp-contract=off -std=gnu17 -Werror -o libs\\box2d-3.1.0\\src\\CMakeFiles\\box2d.dir\\contact.c.obj -c C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\contact.c",
+  "file": "C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\contact.c"
+},
+{
+  "directory": "C:/Users/User/Desktop/BreakoutGame/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -IC:/Users/User/Desktop/BreakoutGame/engine -IC:/Users/User/Desktop/BreakoutGame/breakoutGame -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3-3.2.14/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3_image-3.2.4/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/../include -IC:/Users/User/Desktop/BreakoutGame/cmake-build-debug/libs/box2d-3.1.0/src -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/. -g -fvisibility=hidden -fdiagnostics-color=always -ffp-contract=off -std=gnu17 -Werror -o libs\\box2d-3.1.0\\src\\CMakeFiles\\box2d.dir\\contact_solver.c.obj -c C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\contact_solver.c",
+  "file": "C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\contact_solver.c"
+},
+{
+  "directory": "C:/Users/User/Desktop/BreakoutGame/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -IC:/Users/User/Desktop/BreakoutGame/engine -IC:/Users/User/Desktop/BreakoutGame/breakoutGame -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3-3.2.14/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3_image-3.2.4/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/../include -IC:/Users/User/Desktop/BreakoutGame/cmake-build-debug/libs/box2d-3.1.0/src -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/. -g -fvisibility=hidden -fdiagnostics-color=always -ffp-contract=off -std=gnu17 -Werror -o libs\\box2d-3.1.0\\src\\CMakeFiles\\box2d.dir\\core.c.obj -c C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\core.c",
+  "file": "C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\core.c"
+},
+{
+  "directory": "C:/Users/User/Desktop/BreakoutGame/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -IC:/Users/User/Desktop/BreakoutGame/engine -IC:/Users/User/Desktop/BreakoutGame/breakoutGame -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3-3.2.14/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3_image-3.2.4/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/../include -IC:/Users/User/Desktop/BreakoutGame/cmake-build-debug/libs/box2d-3.1.0/src -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/. -g -fvisibility=hidden -fdiagnostics-color=always -ffp-contract=off -std=gnu17 -Werror -o libs\\box2d-3.1.0\\src\\CMakeFiles\\box2d.dir\\distance.c.obj -c C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\distance.c",
+  "file": "C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\distance.c"
+},
+{
+  "directory": "C:/Users/User/Desktop/BreakoutGame/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -IC:/Users/User/Desktop/BreakoutGame/engine -IC:/Users/User/Desktop/BreakoutGame/breakoutGame -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3-3.2.14/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3_image-3.2.4/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/../include -IC:/Users/User/Desktop/BreakoutGame/cmake-build-debug/libs/box2d-3.1.0/src -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/. -g -fvisibility=hidden -fdiagnostics-color=always -ffp-contract=off -std=gnu17 -Werror -o libs\\box2d-3.1.0\\src\\CMakeFiles\\box2d.dir\\distance_joint.c.obj -c C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\distance_joint.c",
+  "file": "C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\distance_joint.c"
+},
+{
+  "directory": "C:/Users/User/Desktop/BreakoutGame/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -IC:/Users/User/Desktop/BreakoutGame/engine -IC:/Users/User/Desktop/BreakoutGame/breakoutGame -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3-3.2.14/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3_image-3.2.4/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/../include -IC:/Users/User/Desktop/BreakoutGame/cmake-build-debug/libs/box2d-3.1.0/src -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/. -g -fvisibility=hidden -fdiagnostics-color=always -ffp-contract=off -std=gnu17 -Werror -o libs\\box2d-3.1.0\\src\\CMakeFiles\\box2d.dir\\dynamic_tree.c.obj -c C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\dynamic_tree.c",
+  "file": "C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\dynamic_tree.c"
+},
+{
+  "directory": "C:/Users/User/Desktop/BreakoutGame/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -IC:/Users/User/Desktop/BreakoutGame/engine -IC:/Users/User/Desktop/BreakoutGame/breakoutGame -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3-3.2.14/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3_image-3.2.4/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/../include -IC:/Users/User/Desktop/BreakoutGame/cmake-build-debug/libs/box2d-3.1.0/src -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/. -g -fvisibility=hidden -fdiagnostics-color=always -ffp-contract=off -std=gnu17 -Werror -o libs\\box2d-3.1.0\\src\\CMakeFiles\\box2d.dir\\geometry.c.obj -c C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\geometry.c",
+  "file": "C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\geometry.c"
+},
+{
+  "directory": "C:/Users/User/Desktop/BreakoutGame/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -IC:/Users/User/Desktop/BreakoutGame/engine -IC:/Users/User/Desktop/BreakoutGame/breakoutGame -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3-3.2.14/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3_image-3.2.4/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/../include -IC:/Users/User/Desktop/BreakoutGame/cmake-build-debug/libs/box2d-3.1.0/src -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/. -g -fvisibility=hidden -fdiagnostics-color=always -ffp-contract=off -std=gnu17 -Werror -o libs\\box2d-3.1.0\\src\\CMakeFiles\\box2d.dir\\hull.c.obj -c C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\hull.c",
+  "file": "C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\hull.c"
+},
+{
+  "directory": "C:/Users/User/Desktop/BreakoutGame/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -IC:/Users/User/Desktop/BreakoutGame/engine -IC:/Users/User/Desktop/BreakoutGame/breakoutGame -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3-3.2.14/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3_image-3.2.4/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/../include -IC:/Users/User/Desktop/BreakoutGame/cmake-build-debug/libs/box2d-3.1.0/src -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/. -g -fvisibility=hidden -fdiagnostics-color=always -ffp-contract=off -std=gnu17 -Werror -o libs\\box2d-3.1.0\\src\\CMakeFiles\\box2d.dir\\id_pool.c.obj -c C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\id_pool.c",
+  "file": "C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\id_pool.c"
+},
+{
+  "directory": "C:/Users/User/Desktop/BreakoutGame/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -IC:/Users/User/Desktop/BreakoutGame/engine -IC:/Users/User/Desktop/BreakoutGame/breakoutGame -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3-3.2.14/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3_image-3.2.4/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/../include -IC:/Users/User/Desktop/BreakoutGame/cmake-build-debug/libs/box2d-3.1.0/src -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/. -g -fvisibility=hidden -fdiagnostics-color=always -ffp-contract=off -std=gnu17 -Werror -o libs\\box2d-3.1.0\\src\\CMakeFiles\\box2d.dir\\island.c.obj -c C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\island.c",
+  "file": "C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\island.c"
+},
+{
+  "directory": "C:/Users/User/Desktop/BreakoutGame/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -IC:/Users/User/Desktop/BreakoutGame/engine -IC:/Users/User/Desktop/BreakoutGame/breakoutGame -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3-3.2.14/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3_image-3.2.4/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/../include -IC:/Users/User/Desktop/BreakoutGame/cmake-build-debug/libs/box2d-3.1.0/src -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/. -g -fvisibility=hidden -fdiagnostics-color=always -ffp-contract=off -std=gnu17 -Werror -o libs\\box2d-3.1.0\\src\\CMakeFiles\\box2d.dir\\joint.c.obj -c C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\joint.c",
+  "file": "C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\joint.c"
+},
+{
+  "directory": "C:/Users/User/Desktop/BreakoutGame/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -IC:/Users/User/Desktop/BreakoutGame/engine -IC:/Users/User/Desktop/BreakoutGame/breakoutGame -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3-3.2.14/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3_image-3.2.4/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/../include -IC:/Users/User/Desktop/BreakoutGame/cmake-build-debug/libs/box2d-3.1.0/src -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/. -g -fvisibility=hidden -fdiagnostics-color=always -ffp-contract=off -std=gnu17 -Werror -o libs\\box2d-3.1.0\\src\\CMakeFiles\\box2d.dir\\manifold.c.obj -c C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\manifold.c",
+  "file": "C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\manifold.c"
+},
+{
+  "directory": "C:/Users/User/Desktop/BreakoutGame/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -IC:/Users/User/Desktop/BreakoutGame/engine -IC:/Users/User/Desktop/BreakoutGame/breakoutGame -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3-3.2.14/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3_image-3.2.4/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/../include -IC:/Users/User/Desktop/BreakoutGame/cmake-build-debug/libs/box2d-3.1.0/src -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/. -g -fvisibility=hidden -fdiagnostics-color=always -ffp-contract=off -std=gnu17 -Werror -o libs\\box2d-3.1.0\\src\\CMakeFiles\\box2d.dir\\math_functions.c.obj -c C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\math_functions.c",
+  "file": "C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\math_functions.c"
+},
+{
+  "directory": "C:/Users/User/Desktop/BreakoutGame/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -IC:/Users/User/Desktop/BreakoutGame/engine -IC:/Users/User/Desktop/BreakoutGame/breakoutGame -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3-3.2.14/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3_image-3.2.4/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/../include -IC:/Users/User/Desktop/BreakoutGame/cmake-build-debug/libs/box2d-3.1.0/src -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/. -g -fvisibility=hidden -fdiagnostics-color=always -ffp-contract=off -std=gnu17 -Werror -o libs\\box2d-3.1.0\\src\\CMakeFiles\\box2d.dir\\motor_joint.c.obj -c C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\motor_joint.c",
+  "file": "C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\motor_joint.c"
+},
+{
+  "directory": "C:/Users/User/Desktop/BreakoutGame/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -IC:/Users/User/Desktop/BreakoutGame/engine -IC:/Users/User/Desktop/BreakoutGame/breakoutGame -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3-3.2.14/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3_image-3.2.4/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/../include -IC:/Users/User/Desktop/BreakoutGame/cmake-build-debug/libs/box2d-3.1.0/src -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/. -g -fvisibility=hidden -fdiagnostics-color=always -ffp-contract=off -std=gnu17 -Werror -o libs\\box2d-3.1.0\\src\\CMakeFiles\\box2d.dir\\mouse_joint.c.obj -c C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\mouse_joint.c",
+  "file": "C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\mouse_joint.c"
+},
+{
+  "directory": "C:/Users/User/Desktop/BreakoutGame/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -IC:/Users/User/Desktop/BreakoutGame/engine -IC:/Users/User/Desktop/BreakoutGame/breakoutGame -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3-3.2.14/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3_image-3.2.4/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/../include -IC:/Users/User/Desktop/BreakoutGame/cmake-build-debug/libs/box2d-3.1.0/src -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/. -g -fvisibility=hidden -fdiagnostics-color=always -ffp-contract=off -std=gnu17 -Werror -o libs\\box2d-3.1.0\\src\\CMakeFiles\\box2d.dir\\mover.c.obj -c C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\mover.c",
+  "file": "C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\mover.c"
+},
+{
+  "directory": "C:/Users/User/Desktop/BreakoutGame/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -IC:/Users/User/Desktop/BreakoutGame/engine -IC:/Users/User/Desktop/BreakoutGame/breakoutGame -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3-3.2.14/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3_image-3.2.4/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/../include -IC:/Users/User/Desktop/BreakoutGame/cmake-build-debug/libs/box2d-3.1.0/src -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/. -g -fvisibility=hidden -fdiagnostics-color=always -ffp-contract=off -std=gnu17 -Werror -o libs\\box2d-3.1.0\\src\\CMakeFiles\\box2d.dir\\prismatic_joint.c.obj -c C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\prismatic_joint.c",
+  "file": "C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\prismatic_joint.c"
+},
+{
+  "directory": "C:/Users/User/Desktop/BreakoutGame/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -IC:/Users/User/Desktop/BreakoutGame/engine -IC:/Users/User/Desktop/BreakoutGame/breakoutGame -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3-3.2.14/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3_image-3.2.4/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/../include -IC:/Users/User/Desktop/BreakoutGame/cmake-build-debug/libs/box2d-3.1.0/src -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/. -g -fvisibility=hidden -fdiagnostics-color=always -ffp-contract=off -std=gnu17 -Werror -o libs\\box2d-3.1.0\\src\\CMakeFiles\\box2d.dir\\revolute_joint.c.obj -c C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\revolute_joint.c",
+  "file": "C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\revolute_joint.c"
+},
+{
+  "directory": "C:/Users/User/Desktop/BreakoutGame/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -IC:/Users/User/Desktop/BreakoutGame/engine -IC:/Users/User/Desktop/BreakoutGame/breakoutGame -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3-3.2.14/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3_image-3.2.4/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/../include -IC:/Users/User/Desktop/BreakoutGame/cmake-build-debug/libs/box2d-3.1.0/src -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/. -g -fvisibility=hidden -fdiagnostics-color=always -ffp-contract=off -std=gnu17 -Werror -o libs\\box2d-3.1.0\\src\\CMakeFiles\\box2d.dir\\sensor.c.obj -c C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\sensor.c",
+  "file": "C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\sensor.c"
+},
+{
+  "directory": "C:/Users/User/Desktop/BreakoutGame/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -IC:/Users/User/Desktop/BreakoutGame/engine -IC:/Users/User/Desktop/BreakoutGame/breakoutGame -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3-3.2.14/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3_image-3.2.4/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/../include -IC:/Users/User/Desktop/BreakoutGame/cmake-build-debug/libs/box2d-3.1.0/src -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/. -g -fvisibility=hidden -fdiagnostics-color=always -ffp-contract=off -std=gnu17 -Werror -o libs\\box2d-3.1.0\\src\\CMakeFiles\\box2d.dir\\shape.c.obj -c C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\shape.c",
+  "file": "C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\shape.c"
+},
+{
+  "directory": "C:/Users/User/Desktop/BreakoutGame/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -IC:/Users/User/Desktop/BreakoutGame/engine -IC:/Users/User/Desktop/BreakoutGame/breakoutGame -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3-3.2.14/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3_image-3.2.4/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/../include -IC:/Users/User/Desktop/BreakoutGame/cmake-build-debug/libs/box2d-3.1.0/src -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/. -g -fvisibility=hidden -fdiagnostics-color=always -ffp-contract=off -std=gnu17 -Werror -o libs\\box2d-3.1.0\\src\\CMakeFiles\\box2d.dir\\solver.c.obj -c C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\solver.c",
+  "file": "C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\solver.c"
+},
+{
+  "directory": "C:/Users/User/Desktop/BreakoutGame/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -IC:/Users/User/Desktop/BreakoutGame/engine -IC:/Users/User/Desktop/BreakoutGame/breakoutGame -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3-3.2.14/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3_image-3.2.4/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/../include -IC:/Users/User/Desktop/BreakoutGame/cmake-build-debug/libs/box2d-3.1.0/src -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/. -g -fvisibility=hidden -fdiagnostics-color=always -ffp-contract=off -std=gnu17 -Werror -o libs\\box2d-3.1.0\\src\\CMakeFiles\\box2d.dir\\solver_set.c.obj -c C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\solver_set.c",
+  "file": "C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\solver_set.c"
+},
+{
+  "directory": "C:/Users/User/Desktop/BreakoutGame/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -IC:/Users/User/Desktop/BreakoutGame/engine -IC:/Users/User/Desktop/BreakoutGame/breakoutGame -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3-3.2.14/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3_image-3.2.4/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/../include -IC:/Users/User/Desktop/BreakoutGame/cmake-build-debug/libs/box2d-3.1.0/src -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/. -g -fvisibility=hidden -fdiagnostics-color=always -ffp-contract=off -std=gnu17 -Werror -o libs\\box2d-3.1.0\\src\\CMakeFiles\\box2d.dir\\table.c.obj -c C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\table.c",
+  "file": "C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\table.c"
+},
+{
+  "directory": "C:/Users/User/Desktop/BreakoutGame/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -IC:/Users/User/Desktop/BreakoutGame/engine -IC:/Users/User/Desktop/BreakoutGame/breakoutGame -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3-3.2.14/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3_image-3.2.4/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/../include -IC:/Users/User/Desktop/BreakoutGame/cmake-build-debug/libs/box2d-3.1.0/src -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/. -g -fvisibility=hidden -fdiagnostics-color=always -ffp-contract=off -std=gnu17 -Werror -o libs\\box2d-3.1.0\\src\\CMakeFiles\\box2d.dir\\timer.c.obj -c C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\timer.c",
+  "file": "C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\timer.c"
+},
+{
+  "directory": "C:/Users/User/Desktop/BreakoutGame/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -IC:/Users/User/Desktop/BreakoutGame/engine -IC:/Users/User/Desktop/BreakoutGame/breakoutGame -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3-3.2.14/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3_image-3.2.4/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/../include -IC:/Users/User/Desktop/BreakoutGame/cmake-build-debug/libs/box2d-3.1.0/src -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/. -g -fvisibility=hidden -fdiagnostics-color=always -ffp-contract=off -std=gnu17 -Werror -o libs\\box2d-3.1.0\\src\\CMakeFiles\\box2d.dir\\types.c.obj -c C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\types.c",
+  "file": "C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\types.c"
+},
+{
+  "directory": "C:/Users/User/Desktop/BreakoutGame/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -IC:/Users/User/Desktop/BreakoutGame/engine -IC:/Users/User/Desktop/BreakoutGame/breakoutGame -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3-3.2.14/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3_image-3.2.4/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/../include -IC:/Users/User/Desktop/BreakoutGame/cmake-build-debug/libs/box2d-3.1.0/src -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/. -g -fvisibility=hidden -fdiagnostics-color=always -ffp-contract=off -std=gnu17 -Werror -o libs\\box2d-3.1.0\\src\\CMakeFiles\\box2d.dir\\weld_joint.c.obj -c C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\weld_joint.c",
+  "file": "C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\weld_joint.c"
+},
+{
+  "directory": "C:/Users/User/Desktop/BreakoutGame/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -IC:/Users/User/Desktop/BreakoutGame/engine -IC:/Users/User/Desktop/BreakoutGame/breakoutGame -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3-3.2.14/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3_image-3.2.4/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/../include -IC:/Users/User/Desktop/BreakoutGame/cmake-build-debug/libs/box2d-3.1.0/src -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/. -g -fvisibility=hidden -fdiagnostics-color=always -ffp-contract=off -std=gnu17 -Werror -o libs\\box2d-3.1.0\\src\\CMakeFiles\\box2d.dir\\wheel_joint.c.obj -c C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\wheel_joint.c",
+  "file": "C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\wheel_joint.c"
+},
+{
+  "directory": "C:/Users/User/Desktop/BreakoutGame/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -IC:/Users/User/Desktop/BreakoutGame/engine -IC:/Users/User/Desktop/BreakoutGame/breakoutGame -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3-3.2.14/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/SDL3_image-3.2.4/x86_64-w64-mingw32/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/include -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/../include -IC:/Users/User/Desktop/BreakoutGame/cmake-build-debug/libs/box2d-3.1.0/src -IC:/Users/User/Desktop/BreakoutGame/libs/box2d-3.1.0/src/. -g -fvisibility=hidden -fdiagnostics-color=always -ffp-contract=off -std=gnu17 -Werror -o libs\\box2d-3.1.0\\src\\CMakeFiles\\box2d.dir\\world.c.obj -c C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\world.c",
+  "file": "C:\\Users\\User\\Desktop\\BreakoutGame\\libs\\box2d-3.1.0\\src\\world.c"
+}
+]
