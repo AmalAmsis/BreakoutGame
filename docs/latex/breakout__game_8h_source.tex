@@ -1,0 +1,102 @@
+\doxysection{breakout\+\_\+game.\+h}
+\hypertarget{breakout__game_8h_source}{}\label{breakout__game_8h_source}\index{breakoutGame/breakout\_game.h@{breakoutGame/breakout\_game.h}}
+\mbox{\hyperlink{breakout__game_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#ifndef\ BREAKOUT\_GAME\_H}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#define\ BREAKOUT\_GAME\_H}}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ <cstdint>}}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00017\ \textcolor{keyword}{namespace\ }breakout\ \{}
+\DoxyCodeLine{00018\ }
+\DoxyCodeLine{00019\ \ \ \ \ \textcolor{keyword}{using\ }id\_type\ =\ int;}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{00022\ \ \ \ \ \textcolor{comment}{//\ Components}}
+\DoxyCodeLine{00023\ \ \ \ \ \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{00024\ }
+\DoxyCodeLine{00026\ \ \ \ \ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structbreakout_1_1_position}{Position}}\ \{}
+\DoxyCodeLine{00027\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{structbreakout_1_1_position_ab901ceed35940e95115aa6f626b1f299}{x}}\ =\ 0.0f;\ }
+\DoxyCodeLine{00028\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{structbreakout_1_1_position_a604b716a614adb9efa4787fa6abd84b2}{y}}\ =\ 0.0f;\ }
+\DoxyCodeLine{00029\ \ \ \ \ \};}
+\DoxyCodeLine{00030\ }
+\DoxyCodeLine{00032\ \ \ \ \ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structbreakout_1_1_velocity}{Velocity}}\ \{}
+\DoxyCodeLine{00033\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{structbreakout_1_1_velocity_aab42c1ef024a9d099b237db947018dc0}{dx}}\ =\ 0.0f;\ }
+\DoxyCodeLine{00034\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{structbreakout_1_1_velocity_a638662e21c6c33100f0da12bf84f7cc7}{dy}}\ =\ 0.0f;\ }
+\DoxyCodeLine{00035\ \ \ \ \ \};}
+\DoxyCodeLine{00036\ }
+\DoxyCodeLine{00038\ \ \ \ \ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structbreakout_1_1_sprite}{Sprite}}\ \{}
+\DoxyCodeLine{00039\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{structbreakout_1_1_sprite_a34aa0348adbb62a7e028364fe47e6dab}{spriteID}}\ =\ -\/1;\ }
+\DoxyCodeLine{00040\ \ \ \ \ \};}
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00043\ \ \ \ \ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structbreakout_1_1_collider}{Collider}}\ \{}
+\DoxyCodeLine{00044\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{structbreakout_1_1_collider_ac49cb689a606d6b389cc0a547a2b5673}{radius}}\ =\ 5;\ }
+\DoxyCodeLine{00045\ \ \ \ \ \};}
+\DoxyCodeLine{00046\ }
+\DoxyCodeLine{00048\ \ \ \ \ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structbreakout_1_1_brick_health}{BrickHealth}}\ \{}
+\DoxyCodeLine{00049\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{structbreakout_1_1_brick_health_ae0daca20138235abbeb139b25853df43}{hits}}\ =\ 1;\ }
+\DoxyCodeLine{00050\ \ \ \ \ \};}
+\DoxyCodeLine{00051\ }
+\DoxyCodeLine{00053\ \ \ \ \ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structbreakout_1_1_paddle_control}{PaddleControl}}\ \{}
+\DoxyCodeLine{00054\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{structbreakout_1_1_paddle_control_ae15291db9ab8f1f9697331eb4ee949f1}{keyLeft}}\ =\ -\/1;\ \ }
+\DoxyCodeLine{00055\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{structbreakout_1_1_paddle_control_a74695c537f0742e8f2b3170d8d350eff}{keyRight}}\ =\ -\/1;\ }
+\DoxyCodeLine{00056\ \ \ \ \ \};}
+\DoxyCodeLine{00057\ }
+\DoxyCodeLine{00059\ \ \ \ \ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structbreakout_1_1_ball_tag}{BallTag}}\ \{\};}
+\DoxyCodeLine{00060\ }
+\DoxyCodeLine{00062\ \ \ \ \ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structbreakout_1_1_power_up_type}{PowerUpType}}\ \{}
+\DoxyCodeLine{00063\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{structbreakout_1_1_power_up_type_aedac63679935b8f19434e078d30dc6e0}{type}}\ =\ 0;\ }
+\DoxyCodeLine{00064\ \ \ \ \ \};}
+\DoxyCodeLine{00065\ }
+\DoxyCodeLine{00067\ \ \ \ \ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structbreakout_1_1_timed_effect}{TimedEffect}}\ \{}
+\DoxyCodeLine{00068\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{structbreakout_1_1_timed_effect_a282b8e6b8c1806ea61d0da343c6ed3d5}{duration}}\ =\ 0.0f;\ }
+\DoxyCodeLine{00069\ \ \ \ \ \};}
+\DoxyCodeLine{00070\ }
+\DoxyCodeLine{00072\ \ \ \ \ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structbreakout_1_1_life_count}{LifeCount}}\ \{}
+\DoxyCodeLine{00073\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{structbreakout_1_1_life_count_a3c6e778e8393f81ffdb8e655cb04bfc7}{lives}}\ =\ 3;\ }
+\DoxyCodeLine{00074\ \ \ \ \ \};}
+\DoxyCodeLine{00075\ }
+\DoxyCodeLine{00077\ \ \ \ \ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structbreakout_1_1_score}{Score}}\ \{}
+\DoxyCodeLine{00078\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{structbreakout_1_1_score_a99acb836edfbe16bf8ee25c64624e1e4}{points}}\ =\ 0;\ }
+\DoxyCodeLine{00079\ \ \ \ \ \};}
+\DoxyCodeLine{00080\ }
+\DoxyCodeLine{00082\ \ \ \ \ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structbreakout_1_1_destroyed_tag}{DestroyedTag}}\ \{\};}
+\DoxyCodeLine{00083\ }
+\DoxyCodeLine{00084\ \ \ \ \ \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{00085\ \ \ \ \ \textcolor{comment}{//\ Systems\ (declarations\ only)}}
+\DoxyCodeLine{00086\ \ \ \ \ \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{00087\ }
+\DoxyCodeLine{00091\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{breakout__game_8cpp_aa0a70242212d3670ad263b1483b8a189}{MovementSystem}}();}
+\DoxyCodeLine{00092\ }
+\DoxyCodeLine{00096\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{breakout__game_8cpp_a1922f8e92bf6d871f19b6774a4108432}{CollisionSystem}}();}
+\DoxyCodeLine{00097\ }
+\DoxyCodeLine{00101\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{breakout__game_8cpp_a8239370b3eafc7f14b874d23e4ce9c53}{PlayerControlSystem}}();}
+\DoxyCodeLine{00102\ }
+\DoxyCodeLine{00106\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{breakout__game_8cpp_a9de414a800d78d8255b1408f982163c5}{PowerUpSystem}}();}
+\DoxyCodeLine{00107\ }
+\DoxyCodeLine{00111\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{breakout__game_8cpp_a904cfdf0866db10edc7422a15d01c9d5}{DestroySystem}}();}
+\DoxyCodeLine{00112\ }
+\DoxyCodeLine{00116\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{breakout__game_8cpp_ae63e10fc796e04f1ebed7a490134cb83}{UISystem}}();}
+\DoxyCodeLine{00117\ }
+\DoxyCodeLine{00118\ \ \ \ \ \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{00119\ \ \ \ \ \textcolor{comment}{//\ Entity\ creation\ functions}}
+\DoxyCodeLine{00120\ \ \ \ \ \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{00121\ }
+\DoxyCodeLine{00126\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{breakout__game_8cpp_a7b804c5d8b550ba9916a0f7bc16732ec}{CreateBall}}();}
+\DoxyCodeLine{00127\ }
+\DoxyCodeLine{00133\ \ \ \ \ id\_type\ \mbox{\hyperlink{breakout__game_8cpp_a5fcd853d1edc9d332f6309afc94b2b47}{CreateBrick}}(\textcolor{keywordtype}{int}\ health);}
+\DoxyCodeLine{00134\ }
+\DoxyCodeLine{00141\ \ \ \ \ id\_type\ \mbox{\hyperlink{breakout__game_8cpp_a1742519990271f138b8d7d198c7858df}{CreatePaddle}}(\textcolor{keywordtype}{int}\ left,\ \textcolor{keywordtype}{int}\ right);}
+\DoxyCodeLine{00142\ }
+\DoxyCodeLine{00148\ \ \ \ \ \ id\_type\ \mbox{\hyperlink{breakout__game_8cpp_aa87ddb4db3280047e3e794f0621ffdb9}{CreatePowerUp}}(\textcolor{keywordtype}{int}\ type);}
+\DoxyCodeLine{00149\ }
+\DoxyCodeLine{00154\ \ \ \ \ \ id\_type\ \mbox{\hyperlink{breakout__game_8cpp_aed133089f1e6bc9b48eb49f6965553ef}{CreateUIManager}}();}
+\DoxyCodeLine{00155\ }
+\DoxyCodeLine{00156\ \}\ \textcolor{comment}{//\ namespace\ breakout}}
+\DoxyCodeLine{00157\ }
+\DoxyCodeLine{00158\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ BREAKOUT\_GAME\_H}}
+
+\end{DoxyCode}

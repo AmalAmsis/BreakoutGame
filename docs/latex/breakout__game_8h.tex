@@ -1,0 +1,257 @@
+\doxysection{breakout\+Game/breakout\+\_\+game.h File Reference}
+\hypertarget{breakout__game_8h}{}\label{breakout__game_8h}\index{breakoutGame/breakout\_game.h@{breakoutGame/breakout\_game.h}}
+
+
+Breakout-\/style game module using BAGEL ECS architecture.  
+
+
+{\ttfamily \#include $<$cstdint$>$}\newline
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structbreakout_1_1_position}{breakout\+::\+Position}}
+\begin{DoxyCompactList}\small\item\em \doxylink{structbreakout_1_1_position}{Position} of an entity on the screen (X,Y coordinates) \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structbreakout_1_1_velocity}{breakout\+::\+Velocity}}
+\begin{DoxyCompactList}\small\item\em \doxylink{structbreakout_1_1_velocity}{Velocity} vector defining movement direction and speed. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structbreakout_1_1_sprite}{breakout\+::\+Sprite}}
+\begin{DoxyCompactList}\small\item\em Graphical representation (sprite ID) \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structbreakout_1_1_collider}{breakout\+::\+Collider}}
+\begin{DoxyCompactList}\small\item\em \doxylink{structbreakout_1_1_collider}{Collider} for detecting collisions with other entities. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structbreakout_1_1_brick_health}{breakout\+::\+Brick\+Health}}
+\begin{DoxyCompactList}\small\item\em Tracks how many hits a brick can take before breaking. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structbreakout_1_1_paddle_control}{breakout\+::\+Paddle\+Control}}
+\begin{DoxyCompactList}\small\item\em Indicates paddle is controlled by player; includes control keys. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structbreakout_1_1_ball_tag}{breakout\+::\+Ball\+Tag}}
+\begin{DoxyCompactList}\small\item\em Tag component to identify the ball. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structbreakout_1_1_power_up_type}{breakout\+::\+Power\+Up\+Type}}
+\begin{DoxyCompactList}\small\item\em Type of power-\/up available or collected. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structbreakout_1_1_timed_effect}{breakout\+::\+Timed\+Effect}}
+\begin{DoxyCompactList}\small\item\em Temporary effect applied to the entity, with duration. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structbreakout_1_1_life_count}{breakout\+::\+Life\+Count}}
+\begin{DoxyCompactList}\small\item\em Number of lives remaining for the player. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structbreakout_1_1_score}{breakout\+::\+Score}}
+\begin{DoxyCompactList}\small\item\em Current score accumulated by the player. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structbreakout_1_1_destroyed_tag}{breakout\+::\+Destroyed\+Tag}}
+\begin{DoxyCompactList}\small\item\em Marks an entity to be removed from the game. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{breakout__game_8h_a15e4fd98f76da61681a54545a11b7bb6}\label{breakout__game_8h_a15e4fd98f76da61681a54545a11b7bb6} 
+using {\bfseries breakout\+::id\+\_\+type} = int
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{breakout__game_8cpp_aa0a70242212d3670ad263b1483b8a189}{breakout\+::\+Movement\+System}} ()
+\begin{DoxyCompactList}\small\item\em Updates positions of entities that have both \doxylink{structbreakout_1_1_position}{Position} and \doxylink{structbreakout_1_1_velocity}{Velocity} components. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{breakout__game_8cpp_a1922f8e92bf6d871f19b6774a4108432}{breakout\+::\+Collision\+System}} ()
+\begin{DoxyCompactList}\small\item\em Detects and handles collisions between entities that have \doxylink{structbreakout_1_1_position}{Position} and \doxylink{structbreakout_1_1_collider}{Collider} components. Also checks optional components like \doxylink{structbreakout_1_1_ball_tag}{Ball\+Tag} and \doxylink{structbreakout_1_1_brick_health}{Brick\+Health} for special behavior. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{breakout__game_8cpp_a8239370b3eafc7f14b874d23e4ce9c53}{breakout\+::\+Player\+Control\+System}} ()
+\begin{DoxyCompactList}\small\item\em Reads player input and updates paddle position accordingly. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{breakout__game_8cpp_a9de414a800d78d8255b1408f982163c5}{breakout\+::\+Power\+Up\+System}} ()
+\begin{DoxyCompactList}\small\item\em Applies power-\/up effects to entities, checking optional components like \doxylink{structbreakout_1_1_paddle_control}{Paddle\+Control} and \doxylink{structbreakout_1_1_ball_tag}{Ball\+Tag}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{breakout__game_8cpp_a904cfdf0866db10edc7422a15d01c9d5}{breakout\+::\+Destroy\+System}} ()
+\begin{DoxyCompactList}\small\item\em Removes entities that are marked for deletion using the \doxylink{structbreakout_1_1_destroyed_tag}{Destroyed\+Tag} component. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{breakout__game_8cpp_ae63e10fc796e04f1ebed7a490134cb83}{breakout\+::\+UISystem}} ()
+\begin{DoxyCompactList}\small\item\em Displays UI-\/related data such as score and lives for entities that hold those components. \end{DoxyCompactList}\item 
+id\+\_\+type \mbox{\hyperlink{breakout__game_8cpp_a7b804c5d8b550ba9916a0f7bc16732ec}{breakout\+::\+Create\+Ball}} ()
+\begin{DoxyCompactList}\small\item\em Creates a new ball entity with basic motion and collision components. \end{DoxyCompactList}\item 
+id\+\_\+type \mbox{\hyperlink{breakout__game_8cpp_a5fcd853d1edc9d332f6309afc94b2b47}{breakout\+::\+Create\+Brick}} (int health)
+\begin{DoxyCompactList}\small\item\em Creates a brick entity with a specified amount of health. \end{DoxyCompactList}\item 
+id\+\_\+type \mbox{\hyperlink{breakout__game_8cpp_a1742519990271f138b8d7d198c7858df}{breakout\+::\+Create\+Paddle}} (int left, int right)
+\begin{DoxyCompactList}\small\item\em Creates a paddle entity with assigned movement key controls. \end{DoxyCompactList}\item 
+id\+\_\+type \mbox{\hyperlink{breakout__game_8cpp_aa87ddb4db3280047e3e794f0621ffdb9}{breakout\+::\+Create\+Power\+Up}} (int type)
+\begin{DoxyCompactList}\small\item\em Creates a falling power-\/up with a defined type and timed effect. \end{DoxyCompactList}\item 
+id\+\_\+type \mbox{\hyperlink{breakout__game_8cpp_aed133089f1e6bc9b48eb49f6965553ef}{breakout\+::\+Create\+UIManager}} ()
+\begin{DoxyCompactList}\small\item\em Creates a UI manager entity to display score and life count. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Breakout-\/style game module using BAGEL ECS architecture. 
+
+This module defines the game components, systems, and entity creation functions according to the Entity-\/\+Component-\/\+System (ECS) model, implemented using BAGEL. All functions and structures are documented with Doxygen-\/style comments to support understanding and future development. 
+
+\doxysubsection{Function Documentation}
+\Hypertarget{breakout__game_8cpp_a1922f8e92bf6d871f19b6774a4108432}\index{breakout\_game.h@{breakout\_game.h}!CollisionSystem@{CollisionSystem}}
+\index{CollisionSystem@{CollisionSystem}!breakout\_game.h@{breakout\_game.h}}
+\doxysubsubsection{\texorpdfstring{CollisionSystem()}{CollisionSystem()}}
+{\footnotesize\ttfamily \label{breakout__game_8cpp_a1922f8e92bf6d871f19b6774a4108432} 
+void breakout\+::\+Collision\+System (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Detects and handles collisions between entities that have Position and Collider components. Also checks optional components like Ball\+Tag and Brick\+Health for special behavior. 
+
+Handles collisions between entities and triggers side effects. \Hypertarget{breakout__game_8cpp_a7b804c5d8b550ba9916a0f7bc16732ec}\index{breakout\_game.h@{breakout\_game.h}!CreateBall@{CreateBall}}
+\index{CreateBall@{CreateBall}!breakout\_game.h@{breakout\_game.h}}
+\doxysubsubsection{\texorpdfstring{CreateBall()}{CreateBall()}}
+{\footnotesize\ttfamily \label{breakout__game_8cpp_a7b804c5d8b550ba9916a0f7bc16732ec} 
+int breakout\+::\+Create\+Ball (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Creates a new ball entity with basic motion and collision components. 
+
+Creates a ball entity with required components.
+
+\begin{DoxyReturn}{Returns}
+Unique entity ID
+
+The unique ID of the created entity. 
+\end{DoxyReturn}
+\Hypertarget{breakout__game_8cpp_a5fcd853d1edc9d332f6309afc94b2b47}\index{breakout\_game.h@{breakout\_game.h}!CreateBrick@{CreateBrick}}
+\index{CreateBrick@{CreateBrick}!breakout\_game.h@{breakout\_game.h}}
+\doxysubsubsection{\texorpdfstring{CreateBrick()}{CreateBrick()}}
+{\footnotesize\ttfamily \label{breakout__game_8cpp_a5fcd853d1edc9d332f6309afc94b2b47} 
+id\+\_\+type breakout\+::\+Create\+Brick (\begin{DoxyParamCaption}\item[{int}]{health}{}\end{DoxyParamCaption})}
+
+
+
+Creates a brick entity with a specified amount of health. 
+
+Creates a brick entity with specified durability.
+
+
+\begin{DoxyParams}{Parameters}
+{\em health} & Number of hits required to break the brick \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Unique entity ID
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em health} & Number of hits until the brick breaks. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The unique ID of the created entity. 
+\end{DoxyReturn}
+\Hypertarget{breakout__game_8cpp_a1742519990271f138b8d7d198c7858df}\index{breakout\_game.h@{breakout\_game.h}!CreatePaddle@{CreatePaddle}}
+\index{CreatePaddle@{CreatePaddle}!breakout\_game.h@{breakout\_game.h}}
+\doxysubsubsection{\texorpdfstring{CreatePaddle()}{CreatePaddle()}}
+{\footnotesize\ttfamily \label{breakout__game_8cpp_a1742519990271f138b8d7d198c7858df} 
+id\+\_\+type breakout\+::\+Create\+Paddle (\begin{DoxyParamCaption}\item[{int}]{left}{, }\item[{int}]{right}{}\end{DoxyParamCaption})}
+
+
+
+Creates a paddle entity with assigned movement key controls. 
+
+Creates a paddle controlled by the player.
+
+
+\begin{DoxyParams}{Parameters}
+{\em left} & Key code for left movement \\
+\hline
+{\em right} & Key code for right movement \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Unique entity ID
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em left} & Key code for moving left. \\
+\hline
+{\em right} & Key code for moving right. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The unique ID of the created entity. 
+\end{DoxyReturn}
+\Hypertarget{breakout__game_8cpp_aa87ddb4db3280047e3e794f0621ffdb9}\index{breakout\_game.h@{breakout\_game.h}!CreatePowerUp@{CreatePowerUp}}
+\index{CreatePowerUp@{CreatePowerUp}!breakout\_game.h@{breakout\_game.h}}
+\doxysubsubsection{\texorpdfstring{CreatePowerUp()}{CreatePowerUp()}}
+{\footnotesize\ttfamily \label{breakout__game_8cpp_aa87ddb4db3280047e3e794f0621ffdb9} 
+id\+\_\+type breakout\+::\+Create\+Power\+Up (\begin{DoxyParamCaption}\item[{int}]{type}{}\end{DoxyParamCaption})}
+
+
+
+Creates a falling power-\/up with a defined type and timed effect. 
+
+Creates a falling power-\/up with a specified type.
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & Identifier for the power-\/up effect \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Unique entity ID
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em type} & Power-\/up type identifier. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The unique ID of the created entity. 
+\end{DoxyReturn}
+\Hypertarget{breakout__game_8cpp_aed133089f1e6bc9b48eb49f6965553ef}\index{breakout\_game.h@{breakout\_game.h}!CreateUIManager@{CreateUIManager}}
+\index{CreateUIManager@{CreateUIManager}!breakout\_game.h@{breakout\_game.h}}
+\doxysubsubsection{\texorpdfstring{CreateUIManager()}{CreateUIManager()}}
+{\footnotesize\ttfamily \label{breakout__game_8cpp_aed133089f1e6bc9b48eb49f6965553ef} 
+id\+\_\+type breakout\+::\+Create\+UIManager (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Creates a UI manager entity to display score and life count. 
+
+Creates a static UI manager to track score and lives.
+
+\begin{DoxyReturn}{Returns}
+Unique entity ID
+
+The unique ID of the created entity. 
+\end{DoxyReturn}
+\Hypertarget{breakout__game_8cpp_a904cfdf0866db10edc7422a15d01c9d5}\index{breakout\_game.h@{breakout\_game.h}!DestroySystem@{DestroySystem}}
+\index{DestroySystem@{DestroySystem}!breakout\_game.h@{breakout\_game.h}}
+\doxysubsubsection{\texorpdfstring{DestroySystem()}{DestroySystem()}}
+{\footnotesize\ttfamily \label{breakout__game_8cpp_a904cfdf0866db10edc7422a15d01c9d5} 
+void breakout\+::\+Destroy\+System (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Removes entities that are marked for deletion using the Destroyed\+Tag component. 
+
+Removes entities marked with Destroyed\+Tag. \Hypertarget{breakout__game_8cpp_aa0a70242212d3670ad263b1483b8a189}\index{breakout\_game.h@{breakout\_game.h}!MovementSystem@{MovementSystem}}
+\index{MovementSystem@{MovementSystem}!breakout\_game.h@{breakout\_game.h}}
+\doxysubsubsection{\texorpdfstring{MovementSystem()}{MovementSystem()}}
+{\footnotesize\ttfamily \label{breakout__game_8cpp_aa0a70242212d3670ad263b1483b8a189} 
+void breakout\+::\+Movement\+System (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Updates positions of entities that have both Position and Velocity components. 
+
+Updates entity positions based on velocity components. \Hypertarget{breakout__game_8cpp_a8239370b3eafc7f14b874d23e4ce9c53}\index{breakout\_game.h@{breakout\_game.h}!PlayerControlSystem@{PlayerControlSystem}}
+\index{PlayerControlSystem@{PlayerControlSystem}!breakout\_game.h@{breakout\_game.h}}
+\doxysubsubsection{\texorpdfstring{PlayerControlSystem()}{PlayerControlSystem()}}
+{\footnotesize\ttfamily \label{breakout__game_8cpp_a8239370b3eafc7f14b874d23e4ce9c53} 
+void breakout\+::\+Player\+Control\+System (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Reads player input and updates paddle position accordingly. 
+
+Handles player input and updates paddle position accordingly. \Hypertarget{breakout__game_8cpp_a9de414a800d78d8255b1408f982163c5}\index{breakout\_game.h@{breakout\_game.h}!PowerUpSystem@{PowerUpSystem}}
+\index{PowerUpSystem@{PowerUpSystem}!breakout\_game.h@{breakout\_game.h}}
+\doxysubsubsection{\texorpdfstring{PowerUpSystem()}{PowerUpSystem()}}
+{\footnotesize\ttfamily \label{breakout__game_8cpp_a9de414a800d78d8255b1408f982163c5} 
+void breakout\+::\+Power\+Up\+System (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Applies power-\/up effects to entities, checking optional components like Paddle\+Control and Ball\+Tag. 
+
+Activates power-\/up logic and tracks timed effects. \Hypertarget{breakout__game_8cpp_ae63e10fc796e04f1ebed7a490134cb83}\index{breakout\_game.h@{breakout\_game.h}!UISystem@{UISystem}}
+\index{UISystem@{UISystem}!breakout\_game.h@{breakout\_game.h}}
+\doxysubsubsection{\texorpdfstring{UISystem()}{UISystem()}}
+{\footnotesize\ttfamily \label{breakout__game_8cpp_ae63e10fc796e04f1ebed7a490134cb83} 
+void breakout\+::\+UISystem (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Displays UI-\/related data such as score and lives for entities that hold those components. 
+
+Displays game information (score, lives, etc.) to the user. 
