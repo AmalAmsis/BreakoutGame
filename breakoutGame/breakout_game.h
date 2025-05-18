@@ -11,6 +11,8 @@
 #define BREAKOUT_GAME_H
 
 #include <cstdint>
+#include <SDL3/SDL.h>
+#include <unordered_map>
 
 
 
@@ -114,6 +116,14 @@ namespace breakout {
      * @brief Displays game information (score, lives, etc.) to the user.
      */
     void UISystem();
+
+    /**
+     * @brief Renders all drawable entities to the screen.
+     *
+     * @param renderer SDL renderer to draw with.
+     * @param sheet Texture containing sprite sheet.
+     */
+    void RenderSystem(SDL_Renderer* renderer, SDL_Texture* sheet);
 
     //----------------------------------
     // Entity creation functions

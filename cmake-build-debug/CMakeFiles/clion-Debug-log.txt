@@ -1,9 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2023.1.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\User\Desktop\BreakoutGame -B C:\Users\User\Desktop\BreakoutGame\cmake-build-debug
--- CMake C compiler: GNU
--- CMake C++ compiler: GNU
--- CMake system name: Windows
--- CMake host system processor: AMD64
--- Box2D on MinGW
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/User/Desktop/BreakoutGame/cmake-build-debug
+"C:\Users\Amal Amsis\AppData\Local\JetBrains\CLion 2025.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Users/Amal Amsis/AppData/Local/JetBrains/CLion 2025.1/bin/ninja/win/x64/ninja.exe" -G Ninja -S "C:\Users\Amal Amsis\Desktop\AmalA\Computer Science\תכנות מתקדם\breakoutGame" -B "C:\Users\Amal Amsis\Desktop\AmalA\Computer Science\תכנות מתקדם\breakoutGame\cmake-build-debug"
+-- Configuring done (0.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/Users/Amal Amsis/Desktop/AmalA/Computer Science/תכנות מתקדם/BreakoutGame/cmake-build-debug
